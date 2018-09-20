@@ -6,6 +6,8 @@ const PORT = config.port;
 
 const app = express();
 
+var myapi = require ('./currency-api');
+
 const handler = (req, res) => {
     console.log('test')
     res.sendStatus(200);
